@@ -15,7 +15,7 @@ AlwaysBreakAfterDefinitionReturnType: false
 AlwaysBreakTemplateDeclarations: true
 AlwaysBreakBeforeMultilineStrings: true
 BinPackParameters: true
-BreakBeforeBinaryOperators: BOS_None
+BreakBeforeBinaryOperators: false
 BreakBeforeTernaryOperators: true
 BreakConstructorInitializersBeforeComma: false
 ColumnLimit:     180
@@ -29,7 +29,7 @@ MaxEmptyLinesToKeep: 2
 KeepEmptyLinesAtTheStartOfBlocks: true
 NamespaceIndentation: None
 ObjCSpaceAfterProperty: false
-ObjCSpaceBeforeProtocolList: true
+ObjCSpaceBeforeProtocolList: false
 PenaltyBreakBeforeFirstCallParameter: 1
 PenaltyBreakComment: 180
 PenaltyBreakString: 1800
@@ -45,10 +45,11 @@ TabWidth:        4
 UseTab:          Always
 BreakBeforeBraces: Attach
 SpacesInParentheses: false
+SpacesInSquareBrackets: false
 SpacesInAngles:  false
 SpaceInEmptyParentheses: false
-SpacesInCStyleCastParentheses: true
-SpacesInContainerLiterals: true
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
 SpaceBeforeAssignmentOperators: true
 ContinuationIndentWidth: 4
 CommentPragmas:  '^ IWYU pragma:'
