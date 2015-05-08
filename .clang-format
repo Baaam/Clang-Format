@@ -18,7 +18,7 @@ BinPackParameters: true
 BreakBeforeBinaryOperators: false
 BreakBeforeTernaryOperators: true
 BreakConstructorInitializersBeforeComma: false
-ColumnLimit:     120
+ColumnLimit:     160
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
 DerivePointerAlignment: true
 ExperimentalAutoDetectBinPacking: false
@@ -30,6 +30,7 @@ KeepEmptyLinesAtTheStartOfBlocks: true
 NamespaceIndentation: None
 ObjCSpaceAfterProperty: false
 ObjCSpaceBeforeProtocolList: false
+ObjCBlockIndentWidth: 4
 PenaltyBreakBeforeFirstCallParameter: 1
 PenaltyBreakComment: 180
 PenaltyBreakString: 1800
